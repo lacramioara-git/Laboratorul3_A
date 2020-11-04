@@ -11,6 +11,14 @@ public class Biblioteca {
         Collections.sort(listaCarti);
     }
 
+    public ArrayList<Carte> getListaCarti() {
+        return listaCarti;
+    }
+
+    public void setListaCarti(ArrayList<Carte> noualistaCarti) {
+        this.listaCarti = noualistaCarti;
+    }
+
     public Biblioteca(ArrayList<Carte> listaCarti) {
         this.listaCarti = new ArrayList<Carte>();
         for (Carte c : listaCarti)
