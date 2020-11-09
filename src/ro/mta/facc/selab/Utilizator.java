@@ -14,4 +14,9 @@ public class Utilizator {
     {
     	return nume;
     }
+	
+	public void setNume(String numeNou)
+	{
+		this.nume = numeNou;
+	}
 }
