@@ -9,4 +9,9 @@ public class Utilizator {
     public Utilizator(String nume) {
         this.nume = nume;
     }
+
+    public String getName()
+    {
+    	return nume;
+    }
 }
